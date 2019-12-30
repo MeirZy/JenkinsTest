@@ -3,6 +3,7 @@ pipeline {
 
    stages {
       stage('Aaaaaaaaaaaaaaaaa1') {
+         parallel {
          steps {
             echo '222222'
          }
@@ -13,4 +14,5 @@ pipeline {
          }
       }
    }
+ }
 }
